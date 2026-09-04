@@ -53,3 +53,29 @@
 --WHERE Nome = 'Contábil' AND Orcamento >= 35000;
 
 --SELECT * FROM Departamento;
+
+--DELETE FROM Departamento
+--WHERE Local = 'Recife' OR Orcamento >= 40000;
+
+--SELECT * FROM Departamento;
+
+--CREATE TABLE Pessoa ( Mt_Pessoa INTEGER,
+--					   Nm_Pessoa VARCHAR(50) NOT NULL,
+--					   Sx_Pessoa CHAR(1) DEFAULT('M') );
+
+--INSERT INTO Pessoa ( Mt_Pessoa, Nm_Pessoa )
+--            VALUES ( 1002, 'Jorge' );
+
+--SELECT * FROM Pessoa;
+
+--CREATE TABLE Cargo ( Cd_Cargo INTEGER PRIMARY KEY,
+--                     Ds_Cargo VARCHAR(50) NOT NULL );
+
+--DROP TABLE Pessoa;
+
+--CREATE TABLE Persona ( Mt_Persona INTEGER PRIMARY KEY,
+--                       Nm_Persona VARCHAR(50) NOT NULL,
+--                       Cd_Cargo INTEGER
+--                       REFERENCES Cargo(Cd_Cargo) );
+
+
