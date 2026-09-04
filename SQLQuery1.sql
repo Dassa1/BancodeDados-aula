@@ -1,0 +1,15 @@
+--CREATE DATABASE Banco;
+--USE Banco;
+--ALTER DATABASE Banco
+--MODIFY NAME = Agenda2000;
+--CREATE TABLE Pessoal
+--           ( Matrícula  INTEGER,
+--		     Nome       VARCHAR(50),
+--			 Nascimento DATE,
+--			 Sexo       CHAR(1),
+--			 Salario    DECIMAL(10,2) );
+
+--ALTER TABLE Pessoal ADD Observacao VARCHAR(200);
+--ALTER TABLE Pessoal ALTER COLUMN Observacao VARCHAR(150);
+--ALTER TABLE Pessoal DROP COLUMN Observacao;
+--DROP TABLE Pessoal;
