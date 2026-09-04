@@ -1,0 +1,2 @@
+# BancodeDados-aula
+DDL Exercises
