@@ -47,3 +47,9 @@
 --		   ( 40, 'Contábil', 'Recife', 50000 );
 
 --SELECT * FROM Departamento;
+
+--UPDATE Departamento
+--SET Nome = 'Estoque'
+--WHERE Nome = 'Contábil' AND Orcamento >= 35000;
+
+--SELECT * FROM Departamento;
